@@ -3,7 +3,6 @@ import { UserContext } from "./Context/GlobalState";
 import {Transaction} from "./Transaction";
 import {
     Accordion ,
-     Typography,
       AccordionSummary,
        AccordionDetails} from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
