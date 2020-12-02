@@ -5,10 +5,7 @@ import {First, Actions} from '../Types/Types'
 
 const initalState: First = {
     transactions: [
-        {id: 1, description:"Flower", amount:120},
-        {id: 2, description:"Books", amount:50},
-        {id: 3, description:"Salary", amount:-20},
-        {id: 4, description:"Misc", amount:200}
+      
     ]
 } 
 

@@ -8,6 +8,7 @@ const useStyles = makeStyles((theme) => ({
     },
     menuButton: {
       marginRight: theme.spacing(2),
+      width:"5px"
     },
   }));
 
@@ -17,8 +18,8 @@ export const Header: React.FC<{}> = () => {
       const classes = useStyles();
 
   return (
-    <div>
-      <AppBar position="static">
+    <div >
+      <AppBar position="static" className="header">
         <Toolbar variant="dense">
           <IconButton
             edge="start"
@@ -26,10 +27,10 @@ export const Header: React.FC<{}> = () => {
             color="inherit"
             aria-label="menu"
           >
-
+  
           </IconButton>
           <Typography variant="h6" color="inherit">
-          Expense Tracker
+          Expense Tracker 
           </Typography>
         </Toolbar>
       </AppBar>

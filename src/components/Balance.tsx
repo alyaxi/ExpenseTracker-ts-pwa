@@ -1,5 +1,7 @@
 import React from 'react';
 import {UserContext} from "./Context/GlobalState";
+import '../App.css';
+
 
 
 export const Balance: React.FC<{}> = () => {
@@ -11,7 +13,7 @@ export const Balance: React.FC<{}> = () => {
     return (
         <div>
             <h4>Your Balance</h4>
-            <h1>{total}</h1>
+            <h1 id="balance">{total}</h1>
         </div>
     )
 }

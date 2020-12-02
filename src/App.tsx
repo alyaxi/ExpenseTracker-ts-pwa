@@ -15,8 +15,7 @@ const App:React.FC<{}> = () => {
     <>
     <GlobalState>
       <Header/>
-      <div className="container">
-      {`{ minWidth: 320 } matches: ${matches}`}
+      <div className="container">{matches}
       <Balance/>
       <IncomeExpenses />
       <TransactionList/>

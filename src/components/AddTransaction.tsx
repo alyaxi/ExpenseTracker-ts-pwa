@@ -1,6 +1,8 @@
 import React, {useContext, useState } from 'react';
 import {UserContext} from "./Context/GlobalState"
 import { FormControl, TextField, Button } from "@material-ui/core";
+import '../App.css';
+
 
 export const AddTransaction: React.FC<{}> = () => {
     const [description, setDescription] = useState<string>("")
@@ -14,12 +16,12 @@ export const AddTransaction: React.FC<{}> = () => {
                 type: "ADD_TRANSACTION",
                 payload: {
                     id: Math.floor(Math.random() * 1000),
-                    amount,
                     description,
+                    amount: +amount
                 },
                 
         })
-        setDescription("Enter new transaction")
+        setDescription("")
 
         setAmount(0)
     }
@@ -31,14 +33,14 @@ export const AddTransaction: React.FC<{}> = () => {
         <form onSubmit={submitHandle} autoComplete="off">
         <div className="form-label-div">
         <FormControl className="form-label-text" fullWidth>
-        <TextField variant="filled" required label="Enter text" id="tex-field" value={description} onChange={(e: any) => {setDescription(e.target.value)}}/>
+        <TextField type="text" variant="filled" required label="Enter text" id="tex-field" value={description} onChange={(e: any) => {setDescription(e.target.value)}}/>
         </FormControl>
         <FormControl className="form-label-text" fullWidth>
-        <TextField variant="filled" required label="Enter amount" id="tex-field" value={amount} onChange={(e: any) => {setAmount (parseInt(e.target.value))}}/>
-        <p>negative - expense, positive - income</p>
+        <TextField type="number" variant="filled" required label="Enter amount" id="tex-field" value={amount} onChange={(e: any) => {setAmount (parseInt(e.target.value))}}/>
         </FormControl>
+        <p>negative - expense, positive - income</p>
         </div>
-        <Button type="submit" color="primary" fullWidth>Add Transaction</Button>
+        <Button type="submit" variant="contained" className="btn" fullWidth>Add Transaction</Button>
 
         </form>
         </div>

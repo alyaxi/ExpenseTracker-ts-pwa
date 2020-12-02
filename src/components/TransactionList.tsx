@@ -6,6 +6,8 @@ import {
       AccordionSummary,
        AccordionDetails} from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import '../App.css';
+
 
 export const TransactionList: React.FC<{}> = () => {
   const { state } = useContext(UserContext);
