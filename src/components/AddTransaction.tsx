@@ -40,6 +40,8 @@ export const AddTransaction: React.FC<{}> = () => {
         </FormControl>
         <p>negative - expense, positive - income</p>
         </div>
+        <br/>
+        <br/>
         <Button type="submit" variant="contained" className="btn" fullWidth>Add Transaction</Button>
 
         </form>
