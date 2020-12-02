@@ -1,5 +1,5 @@
 const CACHE_NAME = "version-1";
-const urlsToCache = ['index.html', 'offline.html',"images/logo.png"]
+const urlsToCache = ['index.html', 'offline.html',"./images/1.png"]
 
 const self = this;
 // INSTALLATION SERVICE WORKER
