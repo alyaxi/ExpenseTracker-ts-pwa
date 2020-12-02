@@ -17,7 +17,7 @@
   /* width: 350px; */
   box-shadow: var(--box-shadow) !important;
   min-width: 300px !important;
-  min-height: 590px;
+  min-height: 605px;
 }
 body {
   background:#273c75;
