@@ -27,7 +27,7 @@ export const Transaction: React.FC<Second> = (transactions) => {
           <div>
             <List  className={transactions.amount < 0 ? "minus" : "plus"}>
             
-                <ListItem>
+                <ListItem className="list-1">
                   <ListItemAvatar >
                     <Avatar className="list-icon">
                       <AttachMoneyIcon  />

@@ -13,7 +13,7 @@
   background:#192a56;
   color: #f5f6fa;
   /* margin: 30px auto; */
-  padding: 20px;
+  padding: 10px;
   /* width: 350px; */
   box-shadow: var(--box-shadow) !important;
   min-width: 300px !important;
@@ -127,16 +127,19 @@ h4 {
 }
 .list {
   position: relative;
-  /* padding: 0; */
+  padding: 0;
   margin: 0;
   box-shadow: var(--box-shadow);
   /* padding-left:300px ; */
+  min-width:310px;
 }
-.list-text{
-  margin-right: 170px;
-  margin-left: 0px !important;
+@media only screen and (min-width: 400px) {
+  .list{
+    
+    width: 400px;
+  }
 }
 .list-icon{
-  left: -40px;
+  /* left: -40px; */
   background:#4b6584 !important;
 }
