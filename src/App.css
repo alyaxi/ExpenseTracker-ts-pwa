@@ -13,11 +13,12 @@
   background:#192a56;
   color: #f5f6fa;
   /* margin: 30px auto; */
-  padding: 10px;
+  padding: 20px;
   /* width: 350px; */
   box-shadow: var(--box-shadow) !important;
-  min-width: 300px !important;
-  min-height: 605px;
+  width: 350px !important;
+  max-width: 1000px;
+  min-height: 590px;
 }
 body {
   background:#273c75;
@@ -131,14 +132,9 @@ h4 {
   margin: 0;
   box-shadow: var(--box-shadow);
   /* padding-left:300px ; */
-  min-width:310px;
+  min-width:280px;
 }
-@media only screen and (min-width: 400px) {
-  .list{
-    
-    width: 400px;
-  }
-}
+
 .list-icon{
   /* left: -40px; */
   background:#4b6584 !important;
