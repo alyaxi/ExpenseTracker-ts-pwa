@@ -1,6 +1,7 @@
 importScripts('https://www.gstatic.com/firebasejs/8.1.1/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/8.1.1/firebase-messaging.js');
 
+
 const firebaseConfig = {
     apiKey: "AIzaSyCUCMv6x5yP03TjfYIjgKpiYWOvOTI2dz8",
     authDomain: "expensetrackerpwa-e2b27.firebaseapp.com",

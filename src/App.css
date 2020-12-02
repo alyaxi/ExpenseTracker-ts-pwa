@@ -10,8 +10,8 @@
 
 .container{
 
-  background:#192a56;
-  color: #f5f6fa;
+  background:#dcdde1;
+  color: #192a56;
   /* margin: 30px auto; */
   padding: 20px;
   /* width: 350px; */
@@ -21,7 +21,7 @@
   min-height: 590px;
 }
 body {
-  background:#273c75;
+  background:#192a56;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,7 +76,7 @@ h4 {
   text-transform: uppercase;
 }
 .paper1{
-  background:#4b6584 !important;
+  background:#192a56 !important;
   min-width:100px;
   min-height:70px;
   padding:10px;
@@ -84,7 +84,7 @@ h4 {
   box-shadow: var(--box-shadow) !important;
 }
 .paper2{
-  background:#4b6584 !important;
+  background:#192a56 !important;
   min-width:100px;
   min-height:70px;
   padding:10px;
@@ -93,20 +93,20 @@ h4 {
   
 }
 #tex-field{
-  color: whitesmoke;
+  color: #192a56;
   /* background:#273c75; */
 }
 .form-label-text{
   /* background:#4b6584 !important; */
-  color: #dedede !important;
+  color:#192a56 !important;
   box-shadow: var(--box-shadow);
 }
 #panel1a-header{
-  background:#4b6584;
+  background:#192a56;
   color: whitesmoke;
 }
 .header{
-  background:#4b6584 !important;
+  background:#192a56 !important;
   width:100%
 }
 .btn{
@@ -137,5 +137,11 @@ h4 {
 
 .list-icon{
   /* left: -40px; */
-  background:#4b6584 !important;
+  background: #192a56 !important;
+}
+
+.delete-btn:hover{
+  
+  background: #192a56 !important;
+  color:whitesmoke
 }
